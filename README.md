@@ -31,8 +31,7 @@ Sidewall height must be divided by 100 in order to be used correctly as a percen
 
 **Arguments** 
 
-`tread_width : int
-` - tire width measured in millimeters
+`tread_width : int` - tire width measured in millimeters
 
 `sidewall : int` - the sidewall value listed on the tire size
 ``` 
@@ -47,12 +46,11 @@ Finally, wheel_height returns (sidewall height * 2) + rim size.
 
 **Arguments** 
 
-`tread_width : int`
-the tire width measured in millimeters
-`sidewall : int`
-the sidewall value listed on the tire size
-`rim : int`
-the height of the rim in inches
+`tread_width : int` - the tire width measured in millimeters
+
+`sidewall : int` - the sidewall value listed on the tire size
+
+`rim : int` - the height of the rim in inches
 ```
 def  wheel_height(tread_width: int, sidewall: int, rim: int) -> float:
 	return (sidewall_height_value *  2) + rim
