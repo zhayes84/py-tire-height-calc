@@ -1,7 +1,7 @@
 # Table of Contents
 
  1. [What is py-tire-height-calc?](https://github.com/zhayes84/py-tire-height-calc#what-is-py-tire-height-calc)
- 2. [Functions](https://github.com/zhayes84/py-tire-height-calc)
+ 2. [Functions](https://github.com/zhayes84/py-tire-height-calc#functions)
 	 1. [sidewall_height()](https://github.com/zhayes84/py-tire-height-calc#sidewall_height)
 	 2. [wheel_height()](https://github.com/zhayes84/py-tire-height-calc#wheel_height)
 3. [Example Use](https://github.com/zhayes84/py-tire-height-calc#example-use)
