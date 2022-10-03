@@ -25,7 +25,7 @@ flowchart LR;
 # Functions
 ## sidewall_height()
 
-Takes tread_width + sidewall as inputs and returns the sidewall height in inches.
+Takes `tread_width` + `sidewall` as inputs and returns the sidewall height in inches.
 
 Sidewall height must be divided by 100 in order to be used correctly as a percentage value.
 
@@ -40,7 +40,7 @@ def  sidewall_height(tread_width: int, sidewall: int) -> float:
 ```
 ## wheel_height()
 
-Takes tread_width, sidewall, and rim values as inputs. The tread width value is sent as an argument to sidewall_height() which returns a float of the sidewall height in inches.
+Takes `tread_width`, `sidewall`, and `rim` values as inputs. The tread width value is sent as an argument to sidewall_height() which returns a float of the sidewall height in inches.
 
 Finally, wheel_height returns (sidewall height * 2) + rim size.
 
