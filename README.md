@@ -40,9 +40,9 @@ def  sidewall_height(tread_width: int, sidewall: int) -> float:
 ```
 ## wheel_height()
 
-Takes `tread_width`, `sidewall`, and `rim` values as inputs. The tread width value is sent as an argument to sidewall_height() which returns a float of the sidewall height in inches.
+Takes `tread_width`, `sidewall`, and `rim` values as inputs. The tread width value is sent as an argument to `sidewall_height()` which returns a float of the sidewall height in inches.
 
-Finally, wheel_height returns (sidewall height * 2) + rim size.
+Finally, `wheel_height` returns (sidewall height * 2) + rim size.
 
 **Arguments** 
 
