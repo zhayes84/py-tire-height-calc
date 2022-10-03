@@ -61,16 +61,3 @@ def  wheel_height(tread_width: int, sidewall: int, rim: int) -> float:
 ```
 print(f"This wheel is: {wheel_height(225, 40, 16)} inches tall.")
 ```
-
-`sidewall : int`
-the sidewall value listed on the tire size
-`rim : int`
-the height of the rim in inches
-```
-def  wheel_height(tread_width: int, sidewall: int, rim: int) -> float:
-	return (sidewall_height_value *  2) + rim
-```
-# Example Use
-```
-print(f"This wheel is: {wheel_height(225, 40, 16)} inches tall.")
-```
